@@ -17,6 +17,11 @@ body{
 
 .header-message{
     text-align: center;
+    margin-top: 50px;
+    font-size:50px;
+    color: white;
+    font-family:Times;
+    background-color:rgb(160, 109, 32);
 }
 
 .photo-image{
@@ -25,15 +30,17 @@ body{
 }
 
 .photo-image img{
-    width: 250px;
+    width: 300px;
     margin-top: 30px;
-    border-radius: 100px;
+    border-radius: 50px;
+    border: solid;
+    border-color: white;
 }
 
 .subheader-title{
     background-color: rgb(160, 109, 32);
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -45,6 +52,9 @@ body{
 .feature-image img{
     width: 800px;
     margin-top: 30px;
+    border-radius: 50px;
+    border: solid;
+    border-color: white;
 }
 
 .project-image-format{
@@ -59,6 +69,9 @@ body{
     display: inline-block;
     width: 300px;
     vertical-align: top;
+    border: solid;
+    border-color: white;
+    border-radius: 150px;
     
 }
 
@@ -75,9 +88,13 @@ body{
     display: inline-block;
     width: 300px;
     vertical-align: top;
-    font-size: 15px ;
+    font-size: 20px ;
     font-weight: bold;
     margin-top: 3px;
+    border: solid;
+    color:rgb(84, 53, 8);
+    border-color: rgb(160, 109, 32);
+    
     
 }
 
@@ -87,16 +104,19 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 70px;
-    margin-left: 450px;
+    margin-left: 400px;
     text-align: center;
+    border: solid;
+    color:rgb(84, 53, 8);
+    border-color: rgb(160, 109, 32);
     
 }
 
 .skills-info{
-    margin-top: 5px;
+    margin-top: 1px;
     flex-direction: column;
     margin-left: 300px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .skills-image{
@@ -107,45 +127,57 @@ body{
     border-radius: 30px;
     margin-bottom: 30px;
     margin-left: 40px;
+    border:solid;
+    border-color: white;
 }
 
 .autobiography-title{
+    display: inline-block;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     margin-top: 200px;
-    margin-left: 650px;
+    margin-left: 1100px;
     text-align: center;
+    border: solid;
+    color:rgb(84, 53, 8);
+    border-color: rgb(160, 109, 32);
 }
 
 .autobiography-info{
-    margin-left: 800px;       
+    margin-left: 800px; 
+    font-size: 20px;     
 }
 
 .autobiography-image{
-    width:400px;
+    width:500px;
     float:right;
     margin-top: 0px;
     margin-right: 900px;
     margin-bottom:200px;
     border-radius: 30px;
-}
+    border:solid;
+    border-color: white;
 
+
+}
 
 .footer-logo{
     display:flex;
     justify-content: center;
-    position:relative
+    position:relative;
 }
 
 .footer-logo img{
     width: 150px;
-    margin-top: 455px;
+    margin-top: 500px;
     margin-left: 150px;
     border-radius: 100px;
     position:absolute;
     z-index: 2;
+    border: solid;
+    border-color:white;
 }
 
 
@@ -168,34 +200,45 @@ body{
 .footer-title{
     position:absolute;
     z-index: 2;
-    margin-top: 450px;
-    margin-left:500px;
+    margin-top: 500px;
+    margin-left:400px;
+    font-size: 30px;
+    font-family: Times;
 
 }
 
 .footer-address{
     position:absolute;
     z-index: 2;
-    margin-top: 500px;
-    margin-left:460px;
+    margin-top: 550px;
+    margin-left:400px;
+    font-size: 20px;
+    font-family: Times;
 }
 
 .footer-number{
     position:absolute;
     z-index: 2;
-    margin-top: 530px;
-    margin-left:460px;
+    margin-top: 590px;
+    margin-left:400px;
+    font-size: 20px;
+    font-family: Times;
 }
 
 .footer-copyright{
     position:absolute;
     z-index: 2;
-    margin-top: 560px;
-    margin-left:460px;
+    margin-top: 630px;
+    margin-left:400px;
+    font-size: 20px;
+    font-family: Times;
 }
 
-.button-top {
-    text-align: center;
+.button-top  {
+    position:absolute;
+    z-index: 2;
+    margin-top: 560px;
+    margin-left:460px;
   }
   
   .button-top:hover {
