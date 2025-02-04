@@ -1,6 +1,6 @@
 
 body{
-    background-color:rgb(253, 227, 196);
+    background: linear-gradient(to right,rgb(251, 251, 184),rgb(250, 189, 77));
 }
 .banner-image{
     width: 100%;
@@ -25,7 +25,7 @@ body{
 }
 
 .photo-image img{
-    width: 150px;
+    width: 250px;
     margin-top: 30px;
     border-radius: 100px;
 }
@@ -43,6 +43,104 @@ body{
 }
 
 .feature-image img{
-    width: 600px;
+    width: 800px;
     margin-top: 30px;
+}
+
+.project-image-grid{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-image img{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    
+}
+
+.project-info-grid{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    flex:1;
+}
+
+.project-info p{
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    font-size: 15px ;
+    font-weight: bold;
+    margin-top: 3px;
+    
+}
+
+.skills-title{
+    display:inline-block;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-left: 450px;
+    text-align: center;
+    
+}
+
+.skills-info{
+    margin-top: 5px;
+    flex-direction: column;
+    margin-left: 300px;
+    font-size: 15px;
+}
+
+.skills-image{
+    width:400px;
+    float:right;
+    margin-top: 70px;
+    margin-right: 400px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.autobiography-title{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.autobiography-info{
+    margin-left: 800px;       
+}
+
+.autobiography-image{
+    width:400px;
+    float:right;
+    margin-top: 0px;
+    margin-right: 900px;
+    margin-bottom:200px;
+    border-radius: 30px;
+}
+
+.footer-image{
+    width: 100%;
+    height:200px;
+    overflow: hidden;
+    display:block;
+}
+
+.footer-image img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
 }
